@@ -1,0 +1,7 @@
+Game_name:牛永康の夏;
+Game_key:c74kleds56p465;
+Title_img:yuanshenstart.png;
+Title_bgm:s_Title.mp3;
+Textbox_theme:imss;
+Description:;
+Package_name:;

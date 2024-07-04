@@ -1,0 +1,48 @@
+:欢迎游玩——牛永康の夏！ -fontSize=default;
+changeBg:yuanshenstart.png;
+intro:牛永康の夏  你是否曾幻想过，在提瓦特大陆上，开启一段奇幻的冒险？  你是否曾期待过，与心仪的角色相遇，谱写青春的恋曲？  现在，这一切都将在《牛永康の夏》中成为现实！ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+intro:这是一个科技与魔法交织的时代，在著名的原神大学里，故事的主人公——牛永康，一个热爱原神的宅系少年，迎来了他期待已久的大学生活。然而，平静的校园生活却因一场突如其来的袭击而改变…… -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+intro:神秘少女丛雨的追杀，来自异世界的邪恶力量，隐藏在暗处的阴谋……牛永康被迫卷入了一场关乎世界存亡的冒险之中。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+intro:面对未知的挑战，牛永康将如何运用他的智慧和勇气，化解危机？他又能否在冒险中收获友情，邂逅爱情，最终成为真正的英雄？ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+intro:游戏特色：  校园喜剧+奇幻冒险+史诗感，多重元素交织，打造独一无二的游戏体验！  性格各异的角色，等你来攻略！  充满悬念的剧情，出人意料的反转，带给你意想不到的惊喜！  精美的人物立绘和CG，为你呈现一个充满魅力的提瓦特世界！  敬请期待！ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+getUserInput:牛永康 -title=请输入你的名字 -buttonText=确定;
+:我不管，反正你就是牛永康 -fontSize=large;
+bgm:peaceful_campus.mp3  -unlockname=校园日常-suno;
+changeBg:entrance_ceremony.jpg -next ; 开学典礼背景，请自行替换
+;
+:碧空如洗，阳光明媚，微风拂过原神大学的校园，带来阵阵青草香气。 -next
+:今天是新生入学的日子，到处洋溢着青春的气息。
+:在人群中，一个身材瘦弱，眼神略显阴郁的少年显得格格不入。 -next
+:他，就是我们的主角——牛永康，原神大学一年级新生，一个重度原神爱好者。 
+changeFigure:niuyongkang_unhappy.png -next;  牛永康不高兴的表情，请自行替换
+牛永康: (内心独白)唉，真希望赶快结束这无聊的开学典礼，回家抽卡去……
+:正当牛永康沉浸在抽卡的幻想中时，一股邪恶的气息笼罩了整个校园。 -next
+changeBg:dark_sky.jpg -next ; 天空突变，请自行替换
+bgm:battle_theme.mp3 -unlockname=战斗-suno;
+changeFigure:none -next
+:天空骤然变暗，狂风大作，原本晴朗的天空被乌云遮蔽，空气中弥漫着令人窒息的压迫感。 -next
+:一个身穿和服，手持武士刀的少女从天而降，凛冽的杀气瞬间锁定了牛永康。
+changeFigure:cong_yu_angry.png -next ; 丛雨愤怒的表情，请自行替换
+丛雨:牛永康，纳命来！
+changeFigure:niuyongkang_haha.png;
+牛永康: (内心独白)什么情况？！为什么我会被一个拿着刀的女生追杀？！难道是我在游戏里氪金太多遭报应了？
+牛永康:等等，你认错人了吧！
+丛雨:少废话！看招！ -next
+changeFigure:none -next
+:丛雨挥起手中的武士刀“丛雨丸”，一道寒光直逼牛永康的喉咙。
+changeFigure:niuyongkang_haha.png;
+牛永康: (内心独白)完了，要死了吗？我还没抽到雷电将军啊！
+牛永康: (慌乱中掏出手机)原神启动！ -menjiang-battle.mp3 -fontSize=default;
+:(牛永康的手机屏幕亮起，但很快又暗了下去)
+牛永康: (不敢置信)没电了？！
+changeFigure:cong_yu_smirk.png -next ; 丛雨轻蔑的表情，请自行替换
+丛雨:哼，结束了！ 
+:千钧一发之际，一个高大魁梧的身影挡在了牛永康面前。 -next
+changeFigure:menjiang_serious.png -next ;  门酱严肃的表情，请自行替换
+门酱:住手！丛雨！
+丛雨:门酱校长？！你怎么会在这里？！
+门酱:我是不会让你伤害我的学生的！原神启动！！！ -menjiang-battle.mp3 -fontSize=large;
+playVideo:yuanshen.mp4 -skipOff=true;
+changeFigure:none -next
+:(门酱的身上爆发出金色的光芒，一股强大的力量将丛雨震退)
+changeScene:Chapter-1-2.txt 

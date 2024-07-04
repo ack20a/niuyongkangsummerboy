@@ -1,0 +1,46 @@
+changeBg:consciousness_world.jpg -next ; 意识世界的背景，请自行替换
+bgm:mysterious_melody.mp3 -next ; 神秘的音乐，请自行替换
+
+:(牛永康发现自己身处一片纯白的空间，周围漂浮着无数光点，像星星一样闪烁)
+
+changeFigure:niuyongkang_confused.png -next; 牛永康困惑的表情
+牛永康:  (环顾四周)  这里是什么地方？我怎么会在这里？ 
+
+:(一个威严的声音在空间中回响)
+
+？？？:  孩子，欢迎来到你的精神世界。
+
+changeFigure:niuyongkang_shocked.png -next ; 牛永康震惊的表情
+牛永康:  谁？是谁在说话？！
+
+:(光点汇聚在一起，逐渐形成一个巨大的金色光球)
+
+changeFigure:none -next 
+changeBg:golden_sphere.jpg -next ; 金色光球的特写
+
+金色光球:  我是… … 你的力量之源。 你可以称呼我为… … “原神之心”。
+
+changeFigure:niuyongkang_confused.png -next ; 牛永康困惑的表情
+changeBg:consciousness_world.jpg -next ; 回到意识世界
+牛永康: “原神之心”？我的力量之源？这… … 到底是怎么回事？ 
+
+金色光球:  孩子，你生来就拥有特殊的力量，那是足以对抗“深渊的守望者”的强大力量。但是… … 这股力量沉睡在你体内，需要你去唤醒它！
+
+changeFigure:niuyongkang_determined.png -next ;  牛永康坚定的表情
+牛永康: 唤醒我的力量…？  我该怎么做？！
+
+金色光球:  你需要去寻找… … 七元素之力！  集齐七元素之力，你就能解开封印，获得对抗黑暗的力量！
+
+:(金色光球缓缓旋转，七个不同颜色的光点从光球中飞出，落向远方…)
+
+金色光球:  去吧，孩子！去寻找你的命运，拯救这个世界！
+
+:(牛永康的意识逐渐模糊…)
+
+changeBg:black.jpg -next ; 黑暗
+changeFigure:none -next
+bgm:none -next
+
+… …
+
+changeScene:Chapter-1-6.txt

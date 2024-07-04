@@ -1,0 +1,26 @@
+changeBg:battle_scar.jpg -next;  战斗留下痕迹的背景，请自行替换
+:门酱强大的力量将丛雨震飞，她撞倒了一排路灯后消失在夜色中。
+
+changeFigure:menjiang_serious.png -next ;  门酱严肃的表情
+门酱:你没事吧？牛永康同学。
+
+changeFigure:niuyongkang_confused.png -next ; 牛永康困惑的表情，请自行替换
+牛永康:我...我还好。但是，门酱校长，你为什么会出现在这里？还有，那个女生是谁？为什么要袭击我？
+
+changeFigure:menjiang_sigh.png -next ;  门酱叹气的表情，请自行替换
+门酱:唉，一言难尽。看来有些事情，是时候告诉你了。跟我来吧。
+
+:(门酱转身走向校园深处，牛永康愣了一下，连忙跟了上去)
+
+changeBg:library_outside.jpg -next ; 图书馆外部的背景，请自行替换
+:(门酱带着牛永康来到了一座古老而宏伟的建筑前)
+
+changeFigure:niuyongkang_amazed.png -next ; 牛永康惊讶的表情，请自行替换
+牛永康:哇！这是什么地方？好壮观啊！
+
+changeFigure:menjiang_smile.png -next ;  门酱微笑的表情，请自行替换
+门酱:这里是原神大学的“大图书馆”，也是提瓦特帝国的知识宝库。
+
+:（门酱推开沉重的大门，示意牛永康进去）
+
+changeScene:Chapter-1-3.txt
